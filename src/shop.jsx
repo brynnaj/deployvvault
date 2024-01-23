@@ -64,7 +64,7 @@ export default function Shop() {
   const [rbFilter, setRbFilter] = useState(false);
 
   useEffect(() => {
-    fetch("https://v-vault.onrender.com/")
+    fetch("https://depvvault.onrender.com")
       .then(res => res.json())
       .then(data => {
         setOriginalData(data);
